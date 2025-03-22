@@ -1,0 +1,325 @@
+/* Main container styles */
+.homepage-container {
+    background-color: #1f2937;
+    /* dark gray */
+    color: white;
+    padding: 40px 20px;
+    font-family: sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.hero-description {
+    color: #9ca3af;
+    /* lighter gray */
+    margin-bottom: 24px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-explore,
+.btn-sell {
+    background-color: #4b5563;
+    /* medium gray */
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Fresh Arrivals Section */
+.fresh-arrivals {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.nft-list {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.nft-card {
+    background-color: #374151;
+    /* darker gray */
+    padding: 16px;
+    border-radius: 8px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.nft-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.nft-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.nft-artist {
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+.nft-price {
+    font-size: 14px;
+}
+
+/* Your NFTs Section */
+.your-nfts {
+    margin-bottom: 40px;
+}
+
+.nft-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.nft-button {
+    background-color: #4b5563;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Wallets Section */
+.wallets {
+    margin-bottom: 40px;
+}
+
+.wallets-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.wallet-card {
+    background-color: #374151;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.wallet-image {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wallet-name {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.btn-wallet {
+    background-color: #4b5563;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Contact Us Section */
+.contact-us {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-address {
+    color: #9ca3af;
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    margin-bottom: 4px;
+}
+
+/* Main container styles */
+.homepage-container {
+    background-color: #1f2937;
+    /* dark gray */
+    color: white;
+    padding: 40px 20px;
+    font-family: sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.hero-description {
+    color: #9ca3af;
+    /* lighter gray */
+    margin-bottom: 24px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-explore,
+.btn-sell {
+    background-color: #4b5563;
+    /* medium gray */
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Fresh Arrivals Section */
+.fresh-arrivals {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.nft-list {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.nft-card {
+    background-color: #374151;
+    /* darker gray */
+    padding: 16px;
+    border-radius: 8px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.nft-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.nft-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.nft-artist {
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+.nft-price {
+    font-size: 14px;
+}
+
+/* Your NFTs Section */
+.your-nfts {
+    margin-bottom: 40px;
+}
+
+.nft-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.nft-button {
+    background-color: #4b5563;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Wallets Section */
+.wallets {
+    margin-bottom: 40px;
+}
+
+.wallets-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.wallet-card {
+    background-color: #374151;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.wallet-image {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wallet-name {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.btn-wallet {
+    background-color: #4b5563;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Contact Us Section */
+.contact-us {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-address {
+    color: #9ca3af;
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    margin-bottom: 4px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Denied</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        img {
+            width: 300px;
+        }
+    </style>
+    <script>
+        // Prevent navigating back
+        history.pushState(null, "", location.href);
+        window.onpopstate = function () {
+            history.go(1);
+        };
+
+        // Prevent reopening the main website
+        setInterval(() => {
+            if (!localStorage.getItem("banned")) {
+                localStorage.setItem("banned", "true");
+                window.location.replace("https://yourbannedwebsite.com");
+            }
+        }, 1000);
+
+        // Disable right-click, inspect element, and shortcuts
+        document.addEventListener("contextmenu", (event) => event.preventDefault());
+        document.addEventListener("keydown", (event) => {
+            if (event.ctrlKey && ["U", "I", "J", "C", "S", "H"].includes(event.key.toUpperCase())) {
+                event.preventDefault();
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <h1>YOU ARE BANNED!</h1>
+    <p>Your access has been permanently restricted.</p>
+    <img src="https://yourimageurl.com/banned.jpg" alt="Banned">
+</body>
+
+</html>

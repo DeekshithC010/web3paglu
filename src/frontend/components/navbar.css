@@ -1,0 +1,134 @@
+/* Overall Navbar Container */
+.navbar {
+    background-color: #0f1320;
+    /* Dark navy background */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-family: sans-serif;
+}
+
+/* Brand (Left Side) */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.brand-name {
+    color: #ffc107;
+    /* Yellow */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Navigation Links (Center) */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: #ffc107;
+    /* Yellow */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffd600;
+    /* Lighter yellow on hover */
+}
+
+/* Right Side (Connect Wallet / Account) */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Connect Wallet Button */
+.connect-btn {
+    background-color: #ffc107;
+    /* Yellow */
+    color: #0f1320;
+    /* Dark navy text */
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.connect-btn:hover {
+    background-color: #ffd600;
+    /* Lighter yellow */
+}
+
+/* Connected Account Link */
+.connected-link {
+    color: #ffc107;
+    /* Yellow text */
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #ffc107;
+    /* Yellow border */
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.connected-link:hover {
+    color: #ffd600;
+    border-color: #ffd600;
+}
+
+/* Change Wallet Button */
+.change-wallet-btn {
+    background-color: transparent;
+    /* Transparent background */
+    border: 1px solid #ffc107;
+    /* Yellow border */
+    border-radius: 50%;
+    /* Circular button */
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* SVG Icon Styling */
+.change-wallet-icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(74%) sepia(77%) saturate(1000%) hue-rotate(1deg) brightness(100%) contrast(100%);
+    /* Converts the icon color to yellow */
+    transition: filter 0.3s ease;
+}
+
+/* Hover Effect */
+.change-wallet-btn:hover {
+    background-color: #ffd600;
+    /* Lighter yellow */
+    border-color: #ffd600;
+}
+
+.change-wallet-btn:hover .change-wallet-icon {
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    /* Changes icon to black when hovered */
+}
